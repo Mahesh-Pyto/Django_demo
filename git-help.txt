@@ -17,7 +17,7 @@ git config user.email 'mahesh.python.developer@gmail.com'
 git init
 
 -ADD FILES:
-git add file_name -adds files to the staging area of Git
+git add file_name - adds files to the staging area of Git
 git add . - adds all the files present in the local repositry
 
 -COMMIT:
@@ -33,10 +33,18 @@ git checkout branch_name - To check into the desired branch
 git checkout master - To checkout into master branch
 git merge feature - to merge feature branch into master branch
 git branch -d branch_name - to delete the branch
-git branch -D branch_name - deletes the branch even the branch is 				    not fully merged
-git checkout -b new_branch - It creates a new branch and also 	                           check into the new branch
+git branch -D branch_name - deletes the branch even the branch is not fully merged
+git checkout -b new_branch - It creates a new branch and also check into the new branch
 
 -CONNECTING TO THE REMOTE REPOSITORY:
 git remote add origin ssh_link
 git clone ssh_link
 git push origin master -To push the local code to the master branch
+
+-GIT ADVANCED COMMANDS:
+git stash -u - To save changes made when they're not in a state to commit the to a repository
+git log      - This gives context and history for a respository
+git rebase   - Takes a set of commits , copies them and stores them outside your repository
+git revert   - It helps to roll back to the previous version of the file
+
+
