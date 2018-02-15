@@ -1,0 +1,29 @@
+
+
+-VERSION: 
+git --version
+
+-CONFIGURATION:
+Global:
+git config --global user.name 'Mahesh-Pyto'
+git config --global user.email 'mahesh.python.developer@gmail.com'
+git config --list
+
+Current:
+git config user.name 'Mahesh-Pyto'
+git config user.email 'mahesh.python.developer@gmail.com' 
+
+-TO INITITALIZE GIT REPOSITORY:
+git init
+
+-ADD FILES:
+git add file_name -adds files to the staging area of Git
+git add . - adds all the files present in the local repositry
+
+-COMMIT:
+git commit -m 'Message after committing'- Records the changes to the files in a local repository
+
+-STATUS:
+git status - returns the current state of the repository
+
+
